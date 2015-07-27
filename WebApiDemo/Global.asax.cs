@@ -16,7 +16,7 @@ namespace WebApiDemo
     {
         protected void Application_Start()
         {
-            Database.SetInitializer(new WebApiDemoContextInitializer());
+            //Database.SetInitializer(new WebApiDemoContextInitializer());
 
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
